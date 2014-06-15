@@ -4,7 +4,5 @@ install:
     - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
     - sudo apt-get update
     - sudo apt-get install gcc-4.8
-#    - sudo apt-get -qq install libboost1.55-all-dev
-    - wget http://mirrors.kernel.org/ubuntu/pool/universe/b/boost1.55/libboost1.55-all-dev_1.55.0-1_amd64.deb
-    - sudo dpkg -i libboost1.55-all-dev_1.55.0-1_amd64.deb
+    - sudo apt-get -qq install libboost-dev
 script: "cmake . && make && make test"
