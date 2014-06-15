@@ -1,5 +1,6 @@
-boost test libraryの練習とか実験プロジェクト
+## boost test libraryの練習とか実験プロジェクト
 
+[![Build Status](https://magnum.travis-ci.com/TUTProCon2014/wiki_todo.svg?token=FV5J7d1D4AQgtjx1QDss&branch=add_travis-ci)](https://magnum.travis-ci.com/TUTProCon2014/wiki_todo)
 
 とりあえずcmakeでビルドできます。
 
